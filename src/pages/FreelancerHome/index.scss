@@ -1,0 +1,132 @@
+.freelancer-home-container {
+
+  .section {
+    padding: 80px 0 200px;
+
+    @media (max-width: 450px) { padding-bottom: 140px; }   
+  }
+
+  .section-title {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 60px 0 100px;
+    margin: 0;
+    clear: both;
+
+    @media (max-width: 768px) { font-size: 44px; padding: 40px 10px 60px; }
+  }
+
+  .gradient-background {
+    background: linear-gradient(180deg, #fff, #6ea7de, #172338);
+  }
+
+  .content-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .footer {
+    color: #758f91;
+    padding: 20px 10px;
+  }
+}
+
+.divider {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 60px;
+  letter-spacing: 10px;
+  margin: 60px 20px;
+}
+
+
+.chat-box {
+  background-color: white;
+  width: fit-content;
+  color: #6c9ef7 !important;
+  padding: 25px 30px;
+  border-radius: 6px;
+  margin: 10px 30px;
+  position: relative;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.18), 0px 0px 4px rgba(0, 0, 0, 0.18);
+  z-index: 3;
+
+  @media (max-width: 400px) { padding: 25px 10px; }
+
+  &.chat-box-arrow-left:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 30px;
+    right: auto;
+    top: auto;
+    bottom: -40px;
+    border: 30px solid;
+    border-color: transparent;
+    z-index: 2;
+  }
+
+  &.chat-box-arrow-left:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 48px;
+    right: auto;
+    top: auto;
+    bottom: -33px;
+    border: 22px solid;
+    z-index: 2;
+    border-color: white transparent transparent white;
+  }
+
+  &.chat-box-arrow-right-center:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -8px;
+    bottom: -40px;
+    border: 30px solid;
+    border-color: transparent;
+  }
+
+  &.chat-box-arrow-right-center:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 50%;
+    bottom: -33px;
+    border: 22px solid;
+    border-color: white white transparent transparent;
+  }
+
+  &.chat-box-arrow-right:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -8px;
+    bottom: -40px;
+    border: 30px solid;
+    border-color: transparent;
+  }
+
+  &.chat-box-arrow-right:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 48px;
+    bottom: -33px;
+    border: 22px solid;
+    border-color: white white transparent transparent;
+  }
+}

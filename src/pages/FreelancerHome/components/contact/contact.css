@@ -1,0 +1,97 @@
+section {
+    padding: 2rem 0;
+    background: var(--color-light);
+    transition: var(--transition);
+}
+
+section:nth-child(even) {
+    background: var(--color-white);
+}
+
+section > h2 {
+    text-align: center;
+}
+
+section > p {
+    text-align: center;
+    margin: 0.5rem auto 4rem;
+    width: 40%;
+}
+
+
+/* GENERAL SECTION STYLES */
+a {
+    /* color: var(--color-white); */
+    transition: var(--transition);
+}
+
+/* GENERAL SECTION STYLES */
+a {
+    /* color: var(--color-white); */
+    transition: var(--transition);
+}
+
+/* GENERAL HEADING STYLES */
+h1,  h3, h4, h5, h6 {
+    line-height: 1.1;
+    color: var(--color-black);
+}
+h2 {
+    font-size: 2rem;
+}
+
+.contact__container {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+
+.contact__container a {
+    width: 5rem;
+    aspect-ratio: 1/1;
+    color: white;
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-1);
+}
+
+.contact__container a:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    transform: translateY(-0.5rem);
+}
+
+
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .contact__container {
+        gap: 1.5rem;
+    }
+}
+
+
+/* MEDIA QUERIES (tablets) */
+@media screen and (max-width: 1024px) {
+   
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        padding: 8rem 0;
+    }
+
+    section > p {
+        width: 72%;
+        margin-bottom: 3rem;
+    }
+
+}
+
