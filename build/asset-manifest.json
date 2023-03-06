@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e5672dd.chunk.css",
+    "main.js": "/static/js/main.bb8fd690.chunk.js",
+    "main.js.map": "/static/js/main.bb8fd690.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.fb98117b.chunk.js": "/static/js/2.fb98117b.chunk.js",
+    "static/js/2.fb98117b.chunk.js.map": "/static/js/2.fb98117b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.67e8e249aeb622db1234ddc8a05f4a62.js": "/precache-manifest.67e8e249aeb622db1234ddc8a05f4a62.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6e5672dd.chunk.css.map": "/static/css/main.6e5672dd.chunk.css.map",
+    "static/media/admin.png": "/static/media/admin.ed8134bc.png",
+    "static/media/contrast.svg": "/static/media/contrast.d5d0b9c2.svg",
+    "static/media/informational.png": "/static/media/informational.185fd3f4.png",
+    "static/media/link.svg": "/static/media/link.caa9beac.svg",
+    "static/media/marketplace.png": "/static/media/marketplace.fecb4c1f.png",
+    "static/media/patani.png": "/static/media/patani.27993e4e.png",
+    "static/media/portfolio-12.png": "/static/media/portfolio-12.e846457f.png",
+    "static/media/portfolio.png": "/static/media/portfolio.e9e39619.png",
+    "static/media/profile1.png": "/static/media/profile1.64776baf.png",
+    "static/media/tired-man.png": "/static/media/tired-man.b1cf8323.png",
+    "static/media/upsnjp_0.png": "/static/media/upsnjp_0.5e963496.png"
+  }
+}
