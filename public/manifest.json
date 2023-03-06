@@ -1,9 +1,9 @@
 {
-  "short_name": "Elina's personal website",
-  "name": "Web and Mobile Developer - Elina Hovakimyan",
+  "short_name": "Abdu's personal website",
+  "name": "Web and Mobile Developer - Abdu Seid",
   "icons": [
     {
-      "src": "girl.png",
+      "src": "abdure.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
