@@ -14,7 +14,7 @@ const data = [
     name: "profile1",
     title: "Porsonal Website",
     technologies: "React.js, SCSS",
-   // link: "https://apps.apple.com/us/app/zenapillar/id1481114066"
+    link: "https://personal-website-iyxfug3b0-abdreseid.vercel.app/"
   },
   {
     name: "upsnjp_0",

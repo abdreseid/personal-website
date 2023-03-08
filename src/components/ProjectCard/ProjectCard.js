@@ -16,7 +16,7 @@ function ProjectCard({ name, title, technologies, link, hasGif }) {
         {link
           ? (
             <a href={link} className="website-link" target="_blank" rel="noopener noreferrer">
-              <img src={require('../../assets/link.svg')} alt="Developer portfolio" />
+              <img src={require('../../assets/link.svg')} alt="l" />
             </a>
           ) : null}
       </div>
